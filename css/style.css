@@ -333,10 +333,30 @@ ul {
 .home-text h1 {
   font-size: 50px;
 }
+.home-text .typing {
+  position: relative;
+}
 .home-text h2 {
+  display: inline-block;
   font-size: 30px;
   font-weight: 300;
   margin: 0 0 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 1px solid transparent;
+  animation: type 5s ease-in-out infinite alternate,
+    blinkCursor 0.75s ease-in-out infinite;
+}
+@keyframes type {
+  to {
+    width: 450px;
+  }
+}
+@keyframes blinkCursor {
+  50% {
+    border-color: var(--main-color);
+  }
 }
 .home-text .btn {
   margin: 0 15px 15px 0;
@@ -719,6 +739,14 @@ ul {
   }
 }
 @media (max-width: 767px) {
+  .home-text h2 {
+    font-size: 20px;
+  }
+  @keyframes type {
+    to {
+      width: 300px;
+    }
+  }
   .about-img,
   .about-text {
     width: 100%;
