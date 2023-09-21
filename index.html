@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Background circles start -->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+    </div>
+    <!-- Background circles end -->
+
+    <div class="main">
+      <!-- Header start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button type="button" class="nav-toggle">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">home</a></li>
+                  <li><a href="#about" class="nav-item link-item">about</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header end -->
+
+      <!-- Home section start  -->
+      <section class="home-section align-items-center active" id="home">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="home-text">
+              <p>Hello, I'm</p>
+              <h1>Tuan Anh</h1>
+              <div class="typing">
+                <h2>I'm a Frontend Web Developer</span></h2>
+              </div>
+              <a href="#about" class="btn link-item">more about me</a>
+              <a href="#portfolio" class="btn link-item">portfolio</a>
+            </div>
+            <div class="home-img">
+              <div class="img-box">
+                <img src="img/profile-img.png" alt="profile-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Home section end -->
+
+      <!-- About section start -->
+      <section class="about-section sec-padding" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>about me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-img">
+              <div class="img-box">
+                <img src="img/about-img.png" alt="about-img" />
+              </div>
+            </div>
+            <div class="about-text">
+              <p>
+                Hello! My name is <span>Cu Tuan Anh</span>. I graduated from
+                University of Transport and Communications (UTC). I have the
+                desire to become a front‑end developer, I am passionate about
+                building excellent website that improves the lives of those
+                around me.
+              </p>
+              <div class="more-info">
+                <div class="info-item"><span>Birthdate:</span> 24/11/1998</div>
+                <div class="info-item"><span>Phone:</span> 0394422716</div>
+                <div class="info-item">
+                  <span>Address:</span> Cau Giay, Ha Noi
+                </div>
+                <div class="info-item">
+                  <span>Email:</span> tuananhcu2411@gmail.com
+                </div>
+              </div>
+              <h3>skills</h3>
+              <div class="skills">
+                <div class="skill-item">html</div>
+                <div class="skill-item">css</div>
+                <div class="skill-item">javascript</div>
+                <div class="skill-item">bootstrap</div>
+                <div class="skill-item">reactjs</div>
+                <div class="skill-item">Git (Github)</div>
+                <div class="skill-item">photoshop</div>
+              </div>
+              <div class="about-tabs">
+                <button
+                  type="button"
+                  class="tab-item active"
+                  data-target="#education"
+                >
+                  education
+                </button>
+                <button
+                  type="button"
+                  class="tab-item"
+                  data-target="#experience"
+                >
+                  experience
+                </button>
+              </div>
+              <!-- education -->
+              <div class="tab-content active" id="education">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Oct 2016 - Oct 2021</span>
+                    <p>
+                      <b>Information Technology</b> - University of Transport
+                      and Communications.
+                    </p>
+                  </div>
+                  <div class="timeline-item">
+                    <span class="date">May 2022 - Nov 2022</span>
+                    <p> 
+                      Completed the training program 
+                      <b>Professional Frontend Developer</b> - Devmaster Academy.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- experience -->
+              <div class="tab-content" id="experience">
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <span class="date">Dec 2022 - Mar 2023</span>
+                    <h4>Intern at Devmaster Academy :</h4>
+                    <p>- Support and guide students of academy.</p>
+                    <p>- Complete assigned web interfaces.</p>
+                  </div>
+                </div>
+              </div>
+
+              <a href="" target="_blank" class="btn">Download CV</a>
+              <a href="#contact" class="btn link-item">contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About section end -->
+
+      <!-- Portfolio start -->
+      <section class="portfolio-section sec-padding" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>portfolio</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- portfolio item -->
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/1.jpg" alt="portfolio 2" />
+              </div>
+              <h3 class="portfolio-item-title">my portfolio</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    My portfolio where you can get my information online and
+                    visit my done projects.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Technologies used - <span>HTML5, CSS3, Javascript</span>
+                    </li>
+                    <li>
+                      The project is online at
+                      <span
+                        ><a
+                          href=""
+                          target="_blank"
+                          ></a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      Access the project's source on
+                      <span
+                        ><a
+                          href=""
+                          target="_blank"
+                        >
+                          Github</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/2.jpg" alt="portfolio 2" />
+              </div>
+              <h3 class="portfolio-item-title">furniture website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>
+                    Build an furniture website that allow to search, select, add
+                    wishlist, buy products on the website, ... Beside that,
+                    website well displayed on a variety of screens.
+                  </p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Technologies used -
+                      <span
+                        >HTML5, CSS3, Javascript, ReactJS, Hook, React Router
+                        v6, Redux, Call API</span
+                      >
+                    </li>
+                    <li>
+                      The project is online at<span
+                        ><a
+                          href="https://joyful-manatee-abb6a8.netlify.app/"
+                          target="_blank"
+                        >
+                          https://joyful-manatee-abb6a8.netlify.app/</a
+                        >
+                      </span>
+                    </li>
+                    <li>
+                      Access the project's source on
+                      <span
+                        ><a
+                          href="https://github.com/tuananhcu/website-noi-that"
+                          target="_blank"
+                        >
+                          Github</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/3.jpg" alt="portfolio 2" />
+              </div>
+              <h3 class="portfolio-item-title">Find jobs</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Technologies used -
+                      <span>HTML5, CSS3, Javascript, ReactJS, Hook</span>
+                    </li>
+                    <li>
+                      The project is online at<span
+                        ><a
+                          href="https://ephemeral-meerkat-80d817.netlify.app"
+                          target="_blank"
+                        >
+                          https://ephemeral-meerkat-80d817.netlify.app</a
+                        >
+                      </span>
+                    </li>
+                    <li>
+                      Access the project's source on
+                      <span
+                        ><a
+                          href="https://github.com/tuananhcu/dev-job"
+                          target="_blank"
+                        >
+                          Github</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio-item">
+              <div class="portfolio-item-thumbnail">
+                <img src="img/portfolio/4.jpg" alt="portfolio 2" />
+              </div>
+              <h3 class="portfolio-item-title">fast food website</h3>
+              <button type="button" class="btn view-project-btn">
+                view project
+              </button>
+              <div class="portfolio-item-details">
+                <div class="description">
+                  <p>A landing page food website with full responsive.</p>
+                </div>
+                <div class="general-info">
+                  <ul>
+                    <li>Role - <span>Frontend</span></li>
+                    <li>
+                      Technologies used - <span>HTML, CSS, Javascript</span>
+                    </li>
+                    <li>
+                      The project is online at
+                      <span
+                        ><a
+                          href="https://tuananhcu.github.io/website-fast-food-ui/"
+                          target="_blank"
+                          >https://tuananhcu.github.io/website-fast-food-ui/</a
+                        ></span
+                      >
+                    </li>
+                    <li>
+                      Access the project's source on
+                      <span
+                        ><a
+                          href="https://github.com/tuananhcu/website-fast-food-ui"
+                          target="_blank"
+                        >
+                          Github</a
+                        ></span
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio end -->
+
+      <!-- Contact start -->
+      <section class="contact-section sec-padding" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title">
+              <h2>contact me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="contact-form">
+              <form action="">
+                <div class="row">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Name"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      class="input-control"
+                      required
+                    />
+                  </div>
+                  <div class="input-group">
+                    <textarea
+                      type="text"
+                      placeholder="Message"
+                      class="input-control"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="submit-btn">
+                    <button type="submit" class="btn">send message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="contact-info">
+              <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>tuananhcu2411@gmail.com</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>Phone</h3>
+                <p>0394422716</p>
+              </div>
+              <div class="contact-info-item">
+                <h3>follow me</h3>
+                <div class="social-link">
+                  <a
+                    href="https://www.facebook.com/tuananh.xley/"
+                    target="_blank"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                  <a href="https://github.com/tuananhcu" target="_blank"
+                    ><i class="fab fa-github"></i
+                  ></a>
+                  <a href="mailto:tuananhcu2411@gmail.com" target="_blank"
+                    ><i class="far fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact end -->
+    </div>
+
+    <!-- Portfolio details popup start -->
+    <div class="portfolio-popup">
+      <div class="pp-inner">
+        <div class="pp-content">
+          <div class="pp-header">
+            <button type="button" class="btn pp-close">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="pp-thumbnail">
+              <img src="img/portfolio/2.jpg" alt="" />
+            </div>
+            <h3>personal portfolio</h3>
+          </div>
+          <div class="pp-body">
+            <div class="description">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+                porro vel ex accusantium commodi eius dolores, eligendi eaque
+                aspernatur hic deserunt asperiores reprehenderit architecto,
+                obcaecati quod. Rerum vitae exercitationem eius!
+              </p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technologies used - <span>Html, Css</span></li>
+                <li>Role - <span>Frontend</span></li>
+                <li>
+                  <a href="#" target="_blank"> View Online</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio details popup end -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
